@@ -11,12 +11,19 @@
 	<!-- Define your beans here -->
 
 	<!-- define the dependency -->
-	<!-- <bean id="myFortuneService" class="com.tronbrain.springdemo.HappyFortuneService"> 
-		</bean> -->
+	<bean id="myFortuneService"
+		class="com.tronbrain.springdemo.HappyFortuneService">
+	</bean>
 
-	<!-- <bean id="myCoach" class="com.tronbrain.springdemo.TrackCoach"> </bean> -->
 
-	<bean id="myCoach" class="com.tronbrain.springdemo.BaseballCoach">
+<!-- 	<bean id="myCoach" class="com.tronbrain.springdemo.BaseballCoach"> -->
+ 		<!-- set up constructor injection -->
+<!-- 		<constructor-arg ref="myFortuneService" /> -->
+<!-- 	</bean> -->
+
+	<bean id="myCoach" class="com.tronbrain.springdemo.TrackCoach"> 
+			<!-- set up constructor injection --> 
+		<constructor-arg ref="myFortuneService" />
 	</bean>
 
 </beans>
