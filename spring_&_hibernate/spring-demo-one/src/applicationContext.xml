@@ -21,11 +21,26 @@
 <!-- 		<constructor-arg ref="myFortuneService" /> -->
 <!-- 	</bean> -->
 
-	<bean id="myCoach" class="com.tronbrain.springdemo.TrackCoach"> 
-			<!-- set up constructor injection --> 
+	<bean id="myCoach" 
+	    class="com.tronbrain.springdemo.TrackCoach"> 
+	    
+		<!-- set up constructor injection --> 
 		<constructor-arg ref="myFortuneService" />
+		
 	</bean>
 
+	<bean id="myCricketCoach" 
+	    class="com.tronbrain.springdemo.CricketCoach"> 
+	    
+		<!-- set up setter injection --> 
+		<property name="fortuneService" ref="myFortuneService" />
+		
+		<!-- inject literal values -->
+		<property name="emailAddress" value="steven@gmail.com"/>		
+		<property name="team" value="Tronbrain" />
+		
+	</bean>
+	
 </beans>
 
 
