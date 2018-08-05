@@ -1,0 +1,9 @@
+
+[ Spring Configuration with Java Annotations ]
+	
+	1. use applicationContext.xml
+	
+	   entry point: AnnotationDemoApp.java
+	
+	   說明：Inversion of Control 範例	   
+	   
