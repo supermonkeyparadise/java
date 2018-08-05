@@ -7,11 +7,17 @@
 	
 [ Spring Bean Scopes and Lifecycle ]
 
-	use beanScope-applicationContext.xml
+	1. use beanScope-applicationContext.xml
 	
-	entry point: BeanScopeDemoApp.java
+	   entry point: BeanScopeDemoApp.java
 	
-	說明：singleton & prototype scope 範例
+	   說明：singleton & prototype scope 範例
 	
 	
+	2. use beanLifeCycle-applicationContext.xml
+	 
+	   entry point: BeanLifeCycleDemoApp.java	
 	
+	   說明：bean life cycle 範例
+	   
+	   
