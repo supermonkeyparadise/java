@@ -1,4 +1,17 @@
 
 [ XML Configuration ]
-
+	use applicationContext.xml
+	
 	Spring Inversion of Control & Spring Dependency Injection
+
+	
+[ Spring Bean Scopes and Lifecycle ]
+
+	use beanScope-applicationContext.xml
+	
+	entry point: BeanScopeDemoApp.java
+	
+	說明：singleton & prototype scope 範例
+	
+	
+	
