@@ -5,5 +5,7 @@
 	
 	   entry point: AnnotationDemoApp.java
 	
-	   說明：Inversion of Control && constructor injection 範例	   
+	   說明：Inversion of Control && constructor injection 
+	   								setter injection 
+	   								範例	   
 	   
