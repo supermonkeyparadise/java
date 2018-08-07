@@ -7,5 +7,7 @@
 	
 	   說明：Inversion of Control && constructor injection 
 	   								setter injection 
+	   								field injection
+	   								Qualifiers for Dependency Injection
 	   								範例	   
 	   
